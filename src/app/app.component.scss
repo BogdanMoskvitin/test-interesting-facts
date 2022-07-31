@@ -1,0 +1,38 @@
+.flex {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+form {
+  display: flex; 
+  align-items: start;
+}
+input {
+  color: #fff;
+}
+button {
+  margin: 10px 0 0 5px;
+}
+.card {
+  width: 300px; 
+  height: 100px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer; 
+  margin-bottom: 10px; 
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 200ms linear;
+}
+.card:hover {
+  background: #C2185B;
+}
+.card-content {
+  font-size: 24px;
+}
